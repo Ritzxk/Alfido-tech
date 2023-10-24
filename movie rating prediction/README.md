@@ -1,0 +1,1 @@
+Note : Use jupyter file in google colab or install scikit-surprise using this command(!pip install scikit-surprise)
