@@ -31,5 +31,5 @@ Train the selected machine learning model using the training dataset and the fea
 **Model Evaluation:**
 Evaluate the model's performance on the testing dataset using appropriate metrics (e.g., accuracy, precision, recall, F1 score) to determine its effectiveness in predicting survival.
 
-## Stremlit app UI screenshot
-![]()
+## Stremlit app link
+https://titanic-ritz.streamlit.app/
