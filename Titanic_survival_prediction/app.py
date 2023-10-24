@@ -36,26 +36,13 @@ def preprocess_and_predict(pclass, sex, age, fare, embarked, family):
     return prediction[0]
 
 # # Add custom CSS to set the background image
-# st.markdown(
-#     """
-#     <style>
-#     body {
-#         background-image: url('https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638882458/EducationHub/photos/titanic-sinking.jpg');
-#         background-size: cover;
-#         background-repeat: no-repeat;
-#         background-attachment: fixed;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
 
 css = """
     <style>
         body {
             background-image: url('https://i0.wp.com/insights-on.com/wp-content/uploads/2021/03/10-sn56-20201221-titanicsinking-hr.jpg?fit=1024%2C572&ssl=1');
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
         }
         .stApp {
             background-color: rgba(0,0,0,0.5);
